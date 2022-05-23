@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+.Container{
+    background-color: #fff;
+}
+.header{
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    text-decoration: solid;
+
+}
+.header a{
+    text-decoration: solid;
+    color: black;
+}
+
+.myname{
+    float: left;
+    padding-left: 20px;
+}
+/*Work*/
+.Puna{
+    background-color: #ccc;
+    padding: 40px;
+}
+.Puna h1{
+    text-align: center;
+    color: #fff;
+}
+.carda{
+    padding: 20px;  
+    box-shadow: 3px 3px 3px 3px black;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+.cardb{
+    padding: 20px;  
+    box-shadow: 3px 3px 3px 3px black;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+.card p{
+    text-align: center;
+}
